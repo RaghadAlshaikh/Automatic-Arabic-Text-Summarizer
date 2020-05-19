@@ -21,78 +21,79 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The libraries used for the Bag of Words (BoW) summarizer: 
+**The libraries used for the Bag of Words (BoW) summarizer:**
 
-*To access the single article URL ling
+* To access the single article URL ling
 ```
 from urllib import request 
 ```
 
-*To extract the web information (article content)
+* To extract the web information (article content)
 ```
 from bs4 import BeautifulSoup as bs
 ```
 
-*To Clean the web information (article content)
+* To Clean the web information (article content)
 ```
 import re
 ```
 
-*To import the sentence and words tokenizer
+* To import the sentence and words tokenizer
 ```
 import nltk 
 ```
 
-*To import the Arabic stopwords list
+* To import the Arabic stopwords list
 ```
 from nltk.corpus import stopwords
 ```
 
-*To import the Arabic stemmer
+* To import the Arabic stemmer
 ```
 from nltk.corpus import stopwords
 ```
 
-The libraries used for Term Frequency-Inverse Document Frequency (TF-IDF) summarizer: 
+**The libraries used for Term Frequency-Inverse Document Frequency (TF-IDF) summarizer:** 
 
-*To import the sentence and words tokenizer
+* To import the sentence and words tokenizer
 ```
 import nltk 
 ```
 
-The libraries used for the Word2Vec summarizer: 
+**The libraries used for the Word2Vec summarizer:** 
 
 Install the pre-trained model for the 100 vector length skip-gram (wikipedia) and the utility file
 ```
 github.com/bakrianoo/aravec
+install: full_grams_sg_100_wiki
 ```
 
-*To access the single article URL ling
+* To access the single article URL ling
 ```
 from urllib import request 
 ```
 
-*To extract the web information (article content)
+* To extract the web information (article content)
 ```
 from bs4 import BeautifulSoup as bs
 ```
 
-*To Clean the web information (article content)
+* To Clean the web information (article content)
 ```
 import re
 ```
 
-*To import the sentence and words tokenizer
+* To import the sentence and words tokenizer
 ```
 import nltk 
 ```
 
-*To import the Arabic stopwords list
+* To import the Arabic stopwords list
 ```
 from nltk.corpus import stopwords
 ```
 
-*To import and use the KMEANS cluster
+* To import and use the KMEANS cluster
 ```
 from sklearn.manifold import TSNE
 from sklearn import cluster
@@ -115,8 +116,8 @@ http://arabic.highlight.heliohost.org/
 ## Authors
 
 * **Raghad Alshaikh** - [RaghadAlshaikh](https://github.com/RaghadAlshaikh)
-* **Ghaidaa Aflah  ** - [GhaidaaAflah](www.linkedin.com/in/ghaida-aflah-7a241a17a)
-* **Nada Alamouadi ** - [NadaAlamouadi](nood5925@gmail.comg)
+* **Ghaidaa Aflah**   - [GhaidaaAflah](www.linkedin.com/in/ghaida-aflah-7a241a17a)
+* **Nada Alamouadi**  - [NadaAlamouadi](nood5925@gmail.comg)
 
 Supervised By: **Dr.Amal Almansour** - [AmalAlmansour](aalmansour@kau.edu.sa)
 
