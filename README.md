@@ -106,6 +106,15 @@ from sklearn.cluster import KMeans
 The python files are integrated as a CGI scripts with the web files that were developed using HTML5\CSS3\JavaScript\PHP and deployed except for the Word2Vec model on the following link:
 http://arabic.highlight.heliohost.org/
 
+## Testing
+
+**Deployment Testing**
+
+* Input: the article or the link of it
+![input sample](https://i.ibb.co/52VK1JQ/100.png)
+
+* Output: the summary represented as a highlighted text 
+![output sample](https://i.ibb.co/zhHFg5m/1000.png)
 
 ## Built With
 
@@ -125,4 +134,3 @@ Supervised By: **Dr.Amal Almansour** - [AmalAlmansour](aalmansour@kau.edu.sa)
 
 * The Arabic Word2Vec Pre-trained model: github.com/bakrianoo/aravec
 * The EASC dataset: sourceforge.net/projects/easc-corpus/
-* etc
