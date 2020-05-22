@@ -48,9 +48,9 @@ import nltk
 from nltk.corpus import stopwords
 ```
 
-* To import the Arabic stemmer
+* To import the Arabic stemmer (ISRI Arabic stemmer)
 ```
-from nltk.corpus import stopwords
+from nltk.stem.isri import ISRIStemmer
 ```
 
 **The libraries used for Term Frequency-Inverse Document Frequency (TF-IDF) summarizer:** 
