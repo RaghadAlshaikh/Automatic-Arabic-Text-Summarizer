@@ -111,6 +111,7 @@ http://arabic.highlight.heliohost.org/
 **Deployment Testing**
 
 * Input: the article or the link of it
+for ex.: https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%83%D9%88%D9%86 
 ![input sample](https://i.ibb.co/52VK1JQ/100.png)
 
 * Output: the summary represented as a highlighted text 
